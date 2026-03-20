@@ -1,11 +1,14 @@
-+++
-+++
-title = 'My First Post'
-date = 2024-01-14T07:07:07+01:00
-draft = false
-+++
-## Introduction
+---
+title: "Ranking de los Campeones de Futbol"
+description: "Ranking de los Campeones de Futbol de Primera División del Furbol Chileno"
+date: 2026-01-14T07:07:07+01:00
+keywords: ["Futbol"]
+tags: ["R"]
+summary: "Ranking de los Campeones de Futbol de Primera División del Furbol Chileno"
+toc: true  # Habilitar el Table of Contents
+---
 
-This is **bold** text, and this is *emphasized* text.
+Gráfico de la frecuencia acumulada de los equipos que han sido campeones de la primera división del futbol chileno.
+Puedes ver el ranking [acá](https://pascaljorratt.github.io/futbol_ranking/ranking_campeones_chile.html) para más detalles.
 
-Visit the [Hugo](https://gohugo.io) website!
+![GIF de Campeones](/images/champion_barchrace_slow.gif)

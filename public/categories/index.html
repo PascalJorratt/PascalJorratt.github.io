@@ -15,7 +15,8 @@
 <title>My New Hugo Project | Categories</title>
 
     <link rel="stylesheet" href="/css/main.css">
-      <link rel="stylesheet" href="/css/palette/default.css">
+  
+      <link rel="stylesheet" href="/css/palette/eink.css">
 
       <script src="/js/main.js"></script>
 
@@ -23,8 +24,8 @@
 
 </head>
 
+  
 <body
-    class="dark"
 >
   
   <main>
@@ -32,11 +33,55 @@
 <div class="container pt-5">
     <div class="row mt-5 pt-5">
         
+  <nav aria-label="breadcrumb" class="small navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleMenu" aria-controls="collapsibleMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-3 mt-md-0" id="collapsibleMenu">
+      <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/about"
+        
+      >about</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/posts"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/tags"
+        
+      >tags</a>
+      
+    </li>
+      </ol>
+    </div>
+  </nav>
 
     </div>
 
     
     <div class="d-flex flex-column align-items-start">
+    
+        
+        
+        
+            
+            
+            
+                <span class="terms-char pt-2 pb-1">R</span>
+            
+            <a class="badge text-uppercase" href="http://localhost:1313/tags/r/">R (1)</a>
+        
     
     </div>
 
@@ -44,5 +89,16 @@
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function detectThemePreferences() {
+      let themeClasses = ["text-dark"];
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          themeClasses = ["text-light", "dark"];
+      }
+      document.body.classList.add(...themeClasses);
+    }
+
+    detectThemePreferences();
+  </script>
 </body>
 </html>

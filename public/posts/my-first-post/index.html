@@ -8,18 +8,20 @@
 <link rel="shortcut icon" type="image/png" href="http://localhost:1313/favicon.ico" />
 <meta property="og:url" content="http://localhost:1313/posts/my-first-post/">
   <meta property="og:site_name" content="My New Hugo Project">
-  <meta property="og:title" content="My New Hugo Project">
-  <meta property="og:description" content="title = ‘My First Post’ date = 2024-01-14T07:07:07&#43;01:00 draft = false &#43;&#43;&#43;
-Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!">
+  <meta property="og:title" content="Ranking de los Campeones de Futbol">
+  <meta property="og:description" content="Ranking de los Campeones de Futbol de Primera División del Furbol Chileno">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-14T07:07:07+01:00">
+    <meta property="article:modified_time" content="2026-01-14T07:07:07+01:00">
+    <meta property="article:tag" content="R">
 
-<title>My New Hugo Project | </title>
+<title>My New Hugo Project | Ranking de los Campeones de Futbol</title>
 
     <link rel="stylesheet" href="/css/main.css">
-      <link rel="stylesheet" href="/css/palette/default.css">
+  
+      <link rel="stylesheet" href="/css/palette/eink.css">
 
       <script src="/js/main.js"></script>
 
@@ -27,8 +29,8 @@ Visit the Hugo website!">
 
 </head>
 
+  
 <body
-    class="dark"
 >
   
   <main>
@@ -36,18 +38,52 @@ Visit the Hugo website!">
   <div class="container pt-5">
     <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleMenu" aria-controls="collapsibleMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-3 mt-md-0" id="collapsibleMenu">
+      <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/about"
+        
+      >about</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/tags"
+        
+      >tags</a>
+      
+    </li>
+      </ol>
+    </div>
+  </nav>
 
     </div>
     <div class="post">
       <header class="mb-4">
-        <h1 class="text-uppercase"></h1>
+        <h1 class="text-uppercase">Ranking de los Campeones de Futbol</h1>
         
         
         <div aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item small">
               
-              <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+              <time datetime="2026-01-14T07:07:07&#43;01:00">January 14, 2026</time>
             </li>
             
             
@@ -58,17 +94,25 @@ Visit the Hugo website!">
         </div>
       </header>
       
+      <div class="toc small">
+        <p class="toc-title fw-semibold">
+          Table of Contents:
+        </p>
+        <nav id="TableOfContents"></nav>
+      </div>
+      
       <article>
-        <p>title = &lsquo;My First Post&rsquo;
-date = 2024-01-14T07:07:07+01:00
-draft = false
-+++</p>
-<h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+        <p>Gráfico de la frecuencia acumulada de los equipos que han sido campeones de la primera división del futbol chileno.
+Puedes ver el ranking <a href="https://pascaljorratt.github.io/futbol_ranking/ranking_campeones_chile.html">acá</a> para más detalles.</p>
+<p><img src="/images/champion_barchrace_slow.gif" alt="GIF de Campeones"></p>
 
       </article>
       
+  <div class="tags pb-4 pt-2">
+    
+    
+        <a class="badge rounded-pill text-uppercase text-bg-secondary" href="/tags/r/">R</a>
+  </div>
 
       <div class="row">
     <div class="col-md">
@@ -86,6 +130,8 @@ draft = false
     <p class="small opacity-75">
         
         
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
     </p>
 </div>
 
@@ -95,5 +141,16 @@ draft = false
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function detectThemePreferences() {
+      let themeClasses = ["text-dark"];
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          themeClasses = ["text-light", "dark"];
+      }
+      document.body.classList.add(...themeClasses);
+    }
+
+    detectThemePreferences();
+  </script>
 </body>
 </html>

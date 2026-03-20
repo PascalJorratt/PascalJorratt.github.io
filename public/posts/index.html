@@ -15,7 +15,8 @@
 <title>My New Hugo Project | Posts</title>
 
     <link rel="stylesheet" href="/css/main.css">
-      <link rel="stylesheet" href="/css/palette/default.css">
+  
+      <link rel="stylesheet" href="/css/palette/eink.css">
 
       <script src="/js/main.js"></script>
 
@@ -23,8 +24,8 @@
 
 </head>
 
+  
 <body
-    class="dark"
 >
   
   <main>
@@ -33,6 +34,40 @@
     
     <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleMenu" aria-controls="collapsibleMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-3 mt-md-0" id="collapsibleMenu">
+      <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/"
+        
+      >home</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/about"
+        
+      >about</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item my-1 my-md-0 ms-3 ms-md-0">
+      <a href="/tags"
+        
+      >tags</a>
+      
+    </li>
+      </ol>
+    </div>
+  </nav>
 
     </div>
     
@@ -41,8 +76,12 @@
     <div class="row mb-3">
       
       
-      <time class="small" datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
-      <h2 class="h5 list-post-title"><a href="/posts/my-first-post/"></a></h2>
+      <time class="small" datetime="2026-01-14T07:07:07&#43;01:00">January 14, 2026</time>
+      <h2 class="h5 list-post-title"><a href="/posts/my-first-post/">Ranking de los Campeones de Futbol</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        Ranking de los Campeones de Futbol de Primera División del Furbol Chileno
+      </p>
       
     </div>
     
@@ -54,5 +93,16 @@
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function detectThemePreferences() {
+      let themeClasses = ["text-dark"];
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          themeClasses = ["text-light", "dark"];
+      }
+      document.body.classList.add(...themeClasses);
+    }
+
+    detectThemePreferences();
+  </script>
 </body>
 </html>
