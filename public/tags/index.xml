@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on My New Hugo Project</title><link>https://pascaljorratt.github.io/tags/</link><description>Recent content in Tags on My New Hugo Project</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2026 07:07:07 +0100</lastBuildDate><atom:link href="https://pascaljorratt.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>R</title><link>https://pascaljorratt.github.io/tags/r/</link><pubDate>Wed, 14 Jan 2026 07:07:07 +0100</pubDate><guid>https://pascaljorratt.github.io/tags/r/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blog de Análisis y Opinión</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Blog de Análisis y Opinión</description>
+    <generator>Hugo</generator>
+    <language>es-CL</language>
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ciencia</title>
+      <link>http://localhost:1313/tags/ciencia/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ciencia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinión</title>
+      <link>http://localhost:1313/tags/opini%C3%B3n/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/opini%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>http://localhost:1313/tags/r/</link>
+      <pubDate>Wed, 14 Jan 2026 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/tags/r/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,13 @@
+---
+title: "Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico? "
+description: "Reflexión sobre la ciencia en Chile"
+date: 2026-03-21
+keywords: ["Futbol"]
+tags: ["Ciencia", "Opinión"]
+summary: "Reflexión sobre la ciencia en Chile"
+---
+Les comparto una columna publicada en BioBioChile, donde abordo con Alonso Carvajal cómo la cuantificación de la calidad y el amor por el guarismo ha llevado a los científicos a recurrir a prácticas que son, al menos, cuestionables. 
+Se busca a toda costa aumentar los puntos adquiridos, en detrimento de la calidad y la integridad de la investigación, transformando a los investigadores en víctimas y victimarios para asegurar su financiamiento.
+
+Puedes ver el artículo completo [acá](https://www.biobiochile.cl/noticias/opinion/tu-voz/2026/03/04/ciencia-en-chile-cuantas-publicaciones-hacen-un-buen-cientifico.shtml) para más detalles.
+

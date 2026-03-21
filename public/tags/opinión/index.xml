@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog de Análisis y Opinión</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Blog de Análisis y Opinión</description>
+    <title>Opinión on Blog de Análisis y Opinión</title>
+    <link>http://localhost:1313/tags/opini%C3%B3n/</link>
+    <description>Recent content in Opinión on Blog de Análisis y Opinión</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/opini%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico? </title>
       <link>http://localhost:1313/posts/second-post/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/second-post/</guid>
       <description>Reflexión sobre la ciencia en Chile</description>
-    </item>
-    <item>
-      <title>Ranking de los Campeones del Futbol Chileno</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Ranking de los Campeones de Futbol de Primera División del Futbol Chileno</description>
     </item>
   </channel>
 </rss>

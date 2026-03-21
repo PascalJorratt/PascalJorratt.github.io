@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://pascaljorratt.github.io/</loc><lastmod>2026-01-14T07:07:07+01:00</lastmod></url><url><loc>https://pascaljorratt.github.io/posts/</loc><lastmod>2026-01-14T07:07:07+01:00</lastmod></url><url><loc>https://pascaljorratt.github.io/tags/r/</loc><lastmod>2026-01-14T07:07:07+01:00</lastmod></url><url><loc>https://pascaljorratt.github.io/posts/my-first-post/</loc><lastmod>2026-01-14T07:07:07+01:00</lastmod></url><url><loc>https://pascaljorratt.github.io/tags/</loc><lastmod>2026-01-14T07:07:07+01:00</lastmod></url><url><loc>https://pascaljorratt.github.io/about/</loc><lastmod>2024-12-16T11:30:04+01:00</lastmod></url><url><loc>https://pascaljorratt.github.io/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ciencia/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/second-post/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/opini%C3%B3n/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/r/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <lastmod>2026-01-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-12-16T11:30:04+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url>
+</urlset>

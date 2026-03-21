@@ -1,6 +1,6 @@
 baseURL = 'https://pascaljorratt.github.io/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+locale = 'es-CL'
+title = 'Blog de Análisis y Opinión'
 theme = 'not-much'
 
 [caches]
@@ -22,16 +22,16 @@ showPostsSummary = true
     weight = 1
   
   [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
+    identifier = "publicaciones"
+    name = "publicaciones"
+    title = "publicaciones"
     url = "/posts"
     weight = 3
   
   [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "About"
+    identifier = "sobre mí"
+    name = "sobre mí"
+    title = "sobre mí"
     url = "/about"
     weight = 2
   

@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Project</title><link>https://pascaljorratt.github.io/posts/</link><description>Recent content in Posts on My New Hugo Project</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2026 07:07:07 +0100</lastBuildDate><atom:link href="https://pascaljorratt.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Ranking de los Campeones de Futbol</title><link>https://pascaljorratt.github.io/posts/my-first-post/</link><pubDate>Wed, 14 Jan 2026 07:07:07 +0100</pubDate><guid>https://pascaljorratt.github.io/posts/my-first-post/</guid><description>Ranking de los Campeones de Futbol de Primera División del Furbol Chileno</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog de Análisis y Opinión</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Blog de Análisis y Opinión</description>
+    <generator>Hugo</generator>
+    <language>es-CL</language>
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico? </title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>Reflexión sobre la ciencia en Chile</description>
+    </item>
+    <item>
+      <title>Ranking de los Campeones del Futbol Chileno</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Ranking de los Campeones de Futbol de Primera División del Futbol Chileno</description>
+    </item>
+  </channel>
+</rss>
